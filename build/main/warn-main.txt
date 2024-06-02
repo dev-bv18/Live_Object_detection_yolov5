@@ -1,0 +1,86 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean this module is required for running your program. Python and
+Python 3rd-party packages include a lot of conditional or optional modules. For
+example the module 'ntpath' only exists on Windows, whereas the module
+'posixpath' only exists on Posix systems.
+
+Types if import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+            tracking down the missing module yourself. Thanks!
+
+missing module named _posixshmem - imported by multiprocessing.resource_tracker (conditional), multiprocessing.shared_memory (conditional)
+missing module named org - imported by copy (optional)
+missing module named 'org.python' - imported by pickle (optional), xml.sax (delayed, conditional)
+missing module named 'java.lang' - imported by platform (delayed, optional), xml.sax._exceptions (conditional)
+missing module named multiprocessing.BufferTooShort - imported by multiprocessing (top-level), multiprocessing.connection (top-level)
+missing module named multiprocessing.AuthenticationError - imported by multiprocessing (top-level), multiprocessing.connection (top-level)
+missing module named _posixsubprocess - imported by subprocess (optional), multiprocessing.util (delayed)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), zipimport (top-level)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), zipimport (top-level)
+missing module named posix - imported by os (conditional, optional), shutil (conditional), importlib._bootstrap_external (conditional)
+missing module named resource - imported by posix (top-level)
+missing module named grp - imported by shutil (optional), tarfile (optional), pathlib (delayed)
+missing module named pwd - imported by posixpath (delayed, conditional), shutil (optional), tarfile (optional), pathlib (delayed, conditional, optional), netrc (delayed, conditional), getpass (delayed)
+missing module named multiprocessing.get_context - imported by multiprocessing (top-level), multiprocessing.pool (top-level), multiprocessing.managers (top-level), multiprocessing.sharedctypes (top-level)
+missing module named multiprocessing.TimeoutError - imported by multiprocessing (top-level), multiprocessing.pool (top-level)
+missing module named multiprocessing.set_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
+missing module named multiprocessing.get_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
+missing module named pyimod02_importers - imported by C:\Users\bknay\anaconda3\envs\yolov5_pyqt5\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgres.py (top-level), C:\Users\bknay\anaconda3\envs\yolov5_pyqt5\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py (top-level)
+missing module named typing_extensions - imported by pkg_resources._vendor.packaging.metadata (conditional, optional), packaging.metadata (conditional, optional)
+missing module named _manylinux - imported by pkg_resources._vendor.packaging._manylinux (delayed, optional), packaging._manylinux (delayed, optional)
+missing module named jnius - imported by pkg_resources._vendor.platformdirs.android (delayed, optional)
+missing module named platformdirs - imported by pkg_resources._vendor.platformdirs.__main__ (top-level)
+missing module named 'pkg_resources.extern.importlib_resources' - imported by pkg_resources._vendor.jaraco.text (optional)
+missing module named 'typing.io' - imported by importlib.resources (top-level)
+missing module named 'pkg_resources.extern.more_itertools' - imported by pkg_resources._vendor.jaraco.functools (top-level)
+missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named pkg_resources.extern.platformdirs - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named 'pkg_resources.extern.jaraco' - imported by pkg_resources (top-level), pkg_resources._vendor.jaraco.text (top-level)
+missing module named vms_lib - imported by platform (delayed, conditional, optional)
+missing module named java - imported by platform (delayed)
+missing module named _winreg - imported by platform (delayed, optional)
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named termios - imported by getpass (optional)
+missing module named 'PyQt5.QtWidgets' - imported by MouseLabel (top-level), utils.CustomMessageBox (top-level), dialog.rtsp_win (top-level)
+missing module named IPython - imported by utils (delayed)
+missing module named psutil - imported by utils (delayed)
+missing module named thop - imported by utils.torch_utils (delayed, optional), models.yolo (optional)
+missing module named 'torch.nn' - imported by models.experimental (top-level), models.common (top-level), utils.torch_utils (top-level), utils.datasets (top-level), export (top-level), utils.activations (top-level)
+missing module named 'torch.distributed' - imported by utils.torch_utils (top-level)
+missing module named scipy - imported by utils.plots (delayed)
+missing module named PIL - imported by models.common (top-level), utils.datasets (top-level), utils.plots (top-level)
+missing module named seaborn - imported by utils.metrics (delayed, optional), utils.plots (top-level)
+missing module named pandas - imported by models.common (top-level), utils.general (top-level), utils.plots (top-level)
+missing module named 'matplotlib.pyplot' - imported by utils.plots (top-level)
+missing module named matplotlib - imported by utils.metrics (top-level), utils.plots (top-level)
+missing module named google - imported by utils.general (delayed, optional)
+missing module named requests - imported by models.common (top-level), utils.downloads (top-level)
+missing module named yaml - imported by models.common (top-level), utils.general (top-level), utils.datasets (top-level), utils.autoanchor (top-level), models.yolo (delayed, conditional)
+missing module named torchvision - imported by utils.general (top-level)
+missing module named pafy - imported by utils.datasets (delayed, conditional)
+missing module named albumentations - imported by utils.augmentations (delayed, optional)
+missing module named tqdm - imported by utils.datasets (top-level), utils.autoanchor (top-level)
+missing module named 'torch.utils' - imported by utils.datasets (top-level), export (top-level)
+missing module named 'scipy.cluster' - imported by utils.autoanchor (delayed)
+missing module named onnxsim - imported by export (delayed, conditional, optional)
+missing module named onnx - imported by export (delayed, conditional, optional)
+missing module named tflite_runtime - imported by models.common (delayed, conditional, optional)
+missing module named tensorflow - imported by models.common (delayed, conditional, optional)
+missing module named coremltools - imported by models.common (delayed, conditional), export (delayed, conditional, optional)
+missing module named tensorrt - imported by models.common (delayed, conditional)
+missing module named openvino - imported by models.common (delayed, conditional)
+missing module named onnxruntime - imported by models.common (delayed, conditional)
+missing module named 'torch.cuda' - imported by models.common (top-level)
+missing module named cv2 - imported by C:\Users\bknay\OneDrive\Desktop\YOLOV5_PYQT\YOLOV5_PYQT\YOLO\main.py (top-level), models.common (top-level), utils.general (top-level), utils.datasets (top-level), utils.augmentations (top-level), utils.plots (top-level), utils.capnums (top-level)
+missing module named 'torch.backends' - imported by C:\Users\bknay\OneDrive\Desktop\YOLOV5_PYQT\YOLOV5_PYQT\YOLO\main.py (top-level), utils.general (delayed)
+missing module named torch - imported by C:\Users\bknay\OneDrive\Desktop\YOLOV5_PYQT\YOLOV5_PYQT\YOLO\main.py (top-level), models.experimental (top-level), models.common (top-level), utils.general (top-level), utils.downloads (top-level), utils.metrics (top-level), utils.torch_utils (top-level), utils.datasets (top-level), utils.plots (top-level), export (top-level), utils.autoanchor (top-level), utils.activations (top-level)
+missing module named numpy - imported by C:\Users\bknay\OneDrive\Desktop\YOLOV5_PYQT\YOLOV5_PYQT\YOLO\main.py (top-level), models.experimental (top-level), models.common (top-level), utils.general (top-level), utils.metrics (top-level), utils.datasets (top-level), utils.augmentations (top-level), utils.plots (top-level), utils.autoanchor (top-level)
+missing module named 'PyQt5.QtGui' - imported by C:\Users\bknay\OneDrive\Desktop\YOLOV5_PYQT\YOLOV5_PYQT\YOLO\main.py (top-level), utils.CustomMessageBox (top-level)
+missing module named 'PyQt5.QtCore' - imported by MouseLabel (top-level), C:\Users\bknay\OneDrive\Desktop\YOLOV5_PYQT\YOLOV5_PYQT\YOLO\main.py (top-level), utils.CustomMessageBox (top-level)
+missing module named PyQt5 - imported by C:\Users\bknay\OneDrive\Desktop\YOLOV5_PYQT\YOLOV5_PYQT\YOLO\main.py (top-level), main_win.win (top-level), apprcc_rc (top-level), dialog.rtsp_dialog (top-level)
